@@ -1,5 +1,5 @@
 /*
-Write a program that accepts a month number (between 1 and 12), then shows the number of days of that month. Leap years are excluded. Incorrect inputs must be taken into account.
+Write a program that accepts a month number (between 1 and 12), then shows the number of days of that month. Leap years are represented. Incorrect inputs must be taken into account.
 */
 
 const months = [
@@ -27,7 +27,7 @@ function monthNos() {
   } else if (input == 2) {
     console.log(
       months[input - 1] +
-        " has 28 days in a non-leap year & 29 days in a leap year."
+        " has 28 days in a normal year. 29 days in a leap year."
     );
   } else if (input == 4 || input == 6 || input == 9 || input == 11) {
     console.log(months[input - 1] + " has 30 days in a year.");
@@ -47,7 +47,7 @@ switch (monthNos) {
   case 2:
     console.log(
       months[monthNos - 1] +
-        " has 28 days in a non-leap year & 29 days in a leap year."
+        " has 28 days in a normal year. 29 days in a leap year."
     );
     break;
   case 4:

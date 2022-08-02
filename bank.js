@@ -17,3 +17,22 @@ let bankAccount = {
     this.creditAmount = +prompt("Enter credit amount")
     this.debitAmount = +prompt("Enter debit amount")
   },
+
+  credit() {
+    return this.creditAmount
+  },
+  
+  debit() {
+    return this.debitAmount
+  },
+
+  updateBalance() {
+    return this.balance + this.creditAmount - this.debitAmount;
+  },
+
+  describe() {
+    return `${
+      this.name
+    } was credited with ${this.credit()} dollars on Sunday. He spent ${this.debit()} dollars on shoes at Walmart. His balance is now ${this.updateBalance()} dollars`;
+  }
+};

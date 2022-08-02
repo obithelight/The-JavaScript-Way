@@ -12,18 +12,18 @@ Write a program that creates an account object with the following characteristic
 let bankAccount = {
   name: "Alex",
   balance: 0,
-  
-  amount(){
-    this.creditAmount = +prompt("Enter credit amount")
-    this.debitAmount = +prompt("Enter debit amount")
+
+  amount() {
+    this.creditAmount = +prompt("Enter credit amount");
+    this.debitAmount = +prompt("Enter debit amount");
   },
 
   credit() {
-    return this.creditAmount
+    return this.creditAmount;
   },
-  
+
   debit() {
-    return this.debitAmount
+    return this.debitAmount;
   },
 
   updateBalance() {

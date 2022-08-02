@@ -38,3 +38,7 @@ let bankAccount = {
 };
 
 //Use this object to show its description, crediting 250, debiting 80, then show its description again.
+
+bankAccount.amount();
+//console.log(bankAccount.credit())
+//console.log(bankAccount.debit())

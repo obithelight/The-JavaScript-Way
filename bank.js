@@ -42,3 +42,5 @@ let bankAccount = {
 bankAccount.amount();
 //console.log(bankAccount.credit())
 //console.log(bankAccount.debit())
+//console.log(bankAccount.updateBalance())
+console.log(bankAccount.describe());

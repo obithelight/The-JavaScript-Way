@@ -36,3 +36,5 @@ let bankAccount = {
     } was credited with ${this.credit()} dollars on Sunday. He spent ${this.debit()} dollars on shoes at Walmart. His balance is now ${this.updateBalance()} dollars`;
   }
 };
+
+//Use this object to show its description, crediting 250, debiting 80, then show its description again.

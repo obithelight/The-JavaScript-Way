@@ -18,3 +18,5 @@ let circle = {
     return Math.PI * r ** 2;
   }
 };
+
+console.log(`Its circumference is ${circle.circumference()}`);

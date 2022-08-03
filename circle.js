@@ -20,3 +20,4 @@ let circle = {
 };
 
 console.log(`Its circumference is ${circle.circumference()}`);
+console.log(`Its area is ${circle.area()}`);

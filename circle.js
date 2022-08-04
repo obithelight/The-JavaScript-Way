@@ -4,3 +4,5 @@ Complete the following program to add the circle object definition. Its radius v
 */
 
 const r = Number(prompt("Enter the circle radius:"));
+
+// TODO: create the circle object here

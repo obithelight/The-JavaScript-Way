@@ -14,6 +14,6 @@ let dog = {
     //return `${this.name} is a ${this.size} ${this.species} breed`;
 };
 
-console.log(`${dog.name} is a ${dog.species} dog measuring ${dog.size}`);
+console.log(`${dog.name} is a ${dog.species} dog measuring ${dog.size}`); //"Sheryl is a Chuwawa dog measuring 6 ft"
 console.log(`Look, a cat! ${dog.name} barks: ${dog.bark()}`);
 console.log(dog.bark());

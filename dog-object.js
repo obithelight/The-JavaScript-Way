@@ -7,7 +7,10 @@ Complete the following program to add the dog object definition.
 let dog = {
   name: "Sheryl",
   species: "Chuwawa",
-  size: "6 ft"
+  size: "6 ft",
+
+   bark() {
+    return `Ho-Ho-Ho`;
 };
 
 console.log(`${dog.name} is a ${dog.species} dog measuring ${dog.size}`);

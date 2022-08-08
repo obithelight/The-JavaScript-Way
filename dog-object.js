@@ -9,3 +9,5 @@ let dog = {
   species: "Chuwawa",
   size: "6 ft"
 };
+
+console.log(`${dog.name} is a ${dog.species} dog measuring ${dog.size}`);

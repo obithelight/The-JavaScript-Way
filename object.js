@@ -29,4 +29,4 @@ aurora.strength += 10;
 // Aurora learn a new skill
 aurora.xp += 15;
 
-console.log(aurora.describe()); //
+console.log(aurora.describe()); // "Aurora acquired 130 points using 15 margin of experience"

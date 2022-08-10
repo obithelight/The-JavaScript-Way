@@ -28,3 +28,5 @@ aurora.strength += 10;
 
 // Aurora learn a new skill
 aurora.xp += 15;
+
+console.log(aurora.describe()); //

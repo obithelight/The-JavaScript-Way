@@ -16,3 +16,6 @@ const aurora = {
 };
 
 //Create and add a new experience property named xp to the chararcter
+aurora.xp = 0;
+
+//console.log(aurora)

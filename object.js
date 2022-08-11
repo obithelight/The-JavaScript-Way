@@ -14,3 +14,5 @@ const aurora = {
     return `${aurora.name} acquired ${aurora.health} points using ${aurora.xp} margin of experience`;
   }
 };
+
+//Create and add a new experience property named xp to the chararcter

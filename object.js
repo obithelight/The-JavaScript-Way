@@ -19,3 +19,12 @@ const aurora = {
 aurora.xp = 0;
 
 //console.log(aurora)
+
+// Aurora is harmed by an arrow
+aurora.health -= 20;
+
+// Aurora equips a strength necklace
+aurora.strength += 10;
+
+// Aurora learn a new skill
+aurora.xp += 15;

@@ -5,3 +5,12 @@ Improve our example RPG program to add an experience property named xp to the ch
 
 // TODO: create the character object here
 
+const aurora = {
+  name: "Aurora",
+  health: 150,
+  strength: 100,
+
+  describe() {
+    return `${aurora.name} acquired ${aurora.health} points using ${aurora.xp} margin of experience`;
+  }
+};

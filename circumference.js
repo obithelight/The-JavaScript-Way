@@ -23,4 +23,4 @@ console.log(circumference(radius));
 console.log(area(radius));
 
 //console.log(2 ** 3); // 8: 2 * 2 * 2
-//console.log(3 ** 2); 
+//console.log(3 ** 2); // 9: 3 * 3

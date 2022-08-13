@@ -22,4 +22,4 @@ let radius = +prompt("What is the radius?");
 console.log(circumference(radius));
 console.log(area(radius));
 
-//console.log(2 ** 3); 
+//console.log(2 ** 3); // 8: 2 * 2 * 2

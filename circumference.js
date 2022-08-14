@@ -19,3 +19,5 @@ const circumference = radius => 2 * Math.PI * radius;
 const area = radius => Math.PI * radius ** 2;
 
 let radius = +prompt("What is the radius?");
+console.log(circumference(radius));
+console.log(area(radius));

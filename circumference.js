@@ -12,3 +12,5 @@ The value of number π (Pi) is obtained with Math.PI in JavaScript.
 
 /********Solution********/
 
+//circumference of a circle = 2 * PI * radius
+//area of a circle = PI * radius * radius

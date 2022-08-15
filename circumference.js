@@ -9,3 +9,6 @@ The value of number π (Pi) is obtained with Math.PI in JavaScript.
 */ 
 
 //You might want to use the exponentiation operator ** to perform computations.
+
+/********Solution********/
+

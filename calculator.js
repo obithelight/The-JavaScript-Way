@@ -5,3 +5,18 @@ Complete the following program so that it offers the four basic arithmetical ope
 
 // TODO: (SWITCH STATEMENT)
 
+function calculate(num1, operator, num2){
+  switch(operator){
+    case "+":
+      return num1 + num2;
+      break;
+    case "-":
+      return num1 - num2;
+      break;
+    case "*":
+      return num1 * num2;
+    case "/":
+      return num1 / num2;
+      break;
+  }
+}

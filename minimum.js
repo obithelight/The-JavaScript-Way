@@ -27,4 +27,6 @@ const min = (num1, num2) => {
   }
 };
 
-
+console.log(min(100, 50)); // Must show 50
+console.log(min(25, 75)); // Must show 25
+console.log(min(7, 2)); // Must show 2

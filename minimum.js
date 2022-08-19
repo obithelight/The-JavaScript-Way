@@ -5,6 +5,7 @@ Let's pretend the JavaScript Math.min() function doesn't exist. Complete the fol
 
 // TODO: write the min() function
 
+//😊
 function min(num1, num2){
   if(num1 < num2){
     return num1

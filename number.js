@@ -22,9 +22,11 @@ console.log(square2(5)); // Must show 25
 
 //Writing 10 dumb calls to square() is forbidden! You know how to repeat statements, don't you? ;)
 
+//😊
 function square1(x) {
   for(let i = 1; i <= 10; i++){
   console.log(Math.pow(i, 2))
   }
 }
 square1()
+

@@ -15,3 +15,10 @@ function sayHello(firstName, lastName) {
 */
 
 //Solution 
+function sayHello(firstName, lastName) {
+  firstName = prompt("Enter your first name");
+  lastName = prompt("Enter your last name");
+  const message = `Hello, ${firstName} ${lastName}!`;
+  return message;
+}
+console.log(sayHello());

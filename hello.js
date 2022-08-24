@@ -13,3 +13,5 @@ function sayHello(firstName, lastName) {
 // TODO: call sayHello() and show its result
 
 */
+
+//Solution 

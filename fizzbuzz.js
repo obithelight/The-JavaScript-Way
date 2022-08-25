@@ -11,3 +11,13 @@ When it's done, improve it so that the program shows "FizzBuzz" instead for numb
 */
 
 //Solution
+function fizzBuzz(){
+  for(let i = 1; i <= 100; i++){
+    if(i % 3 == 0) console.log("Fizz")
+    else if(i % 5 == 0) console.log("Buzz")
+    else console.log(i)  
+  }
+  
+}
+fizzBuzz()
+

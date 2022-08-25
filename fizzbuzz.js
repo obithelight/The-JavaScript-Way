@@ -21,3 +21,5 @@ function fizzBuzz(){
 }
 fizzBuzz()
 
+//Improve it so that the program shows "FizzBuzz" instead for numbers divisible both by 3 and by 5.
+

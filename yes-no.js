@@ -4,3 +4,14 @@ Write a program that plays "neither yes, nor no" with the user. Specifically, th
 */
 
 //Solution 1
+function yesOrNo() {
+  let userInput = prompt("Enter Yes or No").toLowerCase();
+  if (userInput == "yes" || userInput == "no") {
+    console.log("Congratulations. You Won!");
+  } else {
+    alert("Error. Try Again");
+    yesOrNo();
+  }
+}
+yesOrNo();
+

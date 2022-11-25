@@ -16,3 +16,8 @@ function yesOrNo() {
 yesOrNo();
 
 //Solution 2
+let userInput = ""
+  while(userInput !== "yes" && userInput !== "no"){
+  	userInput = prompt("Please enter yes or no")
+ // console.log(`${userInput}`)
+  }

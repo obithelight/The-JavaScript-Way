@@ -15,3 +15,4 @@ function yesOrNo() {
 }
 yesOrNo();
 
+//Solution 2
